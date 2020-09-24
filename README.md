@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CSV Viewer, Import, and Download
 
-Things you may want to cover:
+* ROR 6
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Upload CSV files via dashboard of activeadmin. View list of csv files uploaded with links to download and view their contents in a table

@@ -11,6 +11,7 @@ ActiveAdmin.register_page "Dashboard" do
 
     def upload_csv
       CsvUpload.convert_save(params[:dump][:file])
+      redirect_to admin_dashboard_path
     end
   end
 

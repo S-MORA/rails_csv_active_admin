@@ -32,9 +32,10 @@ ActiveAdmin.register_page "Dashboard" do
           ul do
            render 'admin/dashboard/upload_csv'
           end
+           #2..-1 first two will be ".", ".."
            Dir.entries("public/csv")[2..-1].each do |file_name|
             div do
-              span do                            #2..-1 first two will be ".", ".."
+              span do
                "#{file_name}:"
               end
               span do
